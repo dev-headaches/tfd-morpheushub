@@ -14,8 +14,8 @@ vm_subnet_prefix = format("%s.%s.%s.%s/27", local.ipsplitlist[0], local.ipsplitl
 }
 
 module "hub" {
-  source  = "app.terraform.io/roman2025/morpheus-hub/azurerm"
-  version = "0.1.6"
+  source  = "github.com/dev-headaches/terraform-azure-morpheus-hub"
+  #version = "0.1.6"
   enviro    = var.enviro #"dev"
   prjnum    = var.prjnum
   location  = "usgovvirginia"
