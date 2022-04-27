@@ -18,7 +18,7 @@ module "hub" {
   #version = "0.1.6"
   enviro    = var.enviro #"dev"
   prjnum    = var.prjnum
-  location  = "usgovvirginia"
+  location  = "usgovarizona"
   orgname   = var.orgname
   vnet_hub_address_spaces = [local.vnet_address_space_prefix]
   vnet_hub_dns_servers = ["8.8.8.8", "1.1.1.1"]
